@@ -1,0 +1,6 @@
+module Pods_eBites {
+  umbrella header "Pods-eBites-umbrella.h"
+
+  export *
+  module * { export * }
+}

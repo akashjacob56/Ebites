@@ -1,0 +1,864 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* eBitesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* eBitesTests.m */; };
+		031130EC7687451DBCDCCD43 /* Inter-Thin-BETA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6BC6074DD2D64C5384AC2C0E /* Inter-Thin-BETA.ttf */; };
+		09B1164CCCA944E3B9EFD9C5 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB184B4D052B4EE181AF1130 /* Inter-Bold.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		43E8FF10B83D4C69B0344C98 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E99D263066FF4060B5A8F534 /* Inter-Black.ttf */; };
+		457CE5AB26CD42AFAF8D84DD /* BalooBhaijaan-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 926D70CD8E5B4206AB526BBB /* BalooBhaijaan-Regular.ttf */; };
+		489365B67537462281F14975 /* Inter-UI-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F75364FDBC834474A0C6968F /* Inter-UI-BlackItalic.ttf */; };
+		55FA7894A110419594F3B984 /* Inter-LightItalic-BETA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4696F641A9D04F64B1D4DA79 /* Inter-LightItalic-BETA.ttf */; };
+		570B9BC3D7E145BB8334B451 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1CA7AB4151E479EBE8F3569 /* Inter-Regular.ttf */; };
+		65B38BD3436E4E16A36F13F5 /* Inter-ExtraLightItalic-BETA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABBEF54FDD0D4B05A37D1DD4 /* Inter-ExtraLightItalic-BETA.ttf */; };
+		690FD61945FC480DBC6B39E1 /* Inter-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFDB4D19D93C43758F0861FD /* Inter-Italic.ttf */; };
+		6B780D3C4E534B2BB5A7A7D1 /* Inter-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7C6C737367F4EDD982C213A /* Inter-SemiBoldItalic.ttf */; };
+		6DF8DF5C93C644FAB697BD34 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 090FA3B1A197418F8082CA91 /* Inter-ExtraBold.ttf */; };
+		747E41F1BB7A4A46A1B24D67 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A20AD88877EF4C5E8F835653 /* Inter-SemiBold.ttf */; };
+		75DBB060788B4C138F3779AE /* Inter-ThinItalic-BETA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAB1D83972164579BDA1C21C /* Inter-ThinItalic-BETA.ttf */; };
+		7609CE1ACAFA49E2B22B4FA5 /* Inter-Light-BETA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FB1EC1E26354A91A81749E3 /* Inter-Light-BETA.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8A66443F2D74433D8F4B62B4 /* Inter-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B705ABF8B2054EB4B4238AF6 /* Inter-MediumItalic.ttf */; };
+		AB7266594E6E4077B799D84F /* Inter-ExtraLight-BETA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41C6811165904A1C9028FAFD /* Inter-ExtraLight-BETA.ttf */; };
+		CB21BCF52768B3E000670B9E /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EB2A7D350294A30831D9D10 /* Rubik-Black.ttf */; };
+		CB21BCF62768B3E000670B9E /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E3E0D54A44045BCB27915E4 /* Rubik-BlackItalic.ttf */; };
+		CB21BCF72768B3E000670B9E /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77DEA711C9194054918403F7 /* Rubik-Bold.ttf */; };
+		CB21BCF82768B3E000670B9E /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 300E3DBFD55D43CDB5E0F811 /* Rubik-BoldItalic.ttf */; };
+		CB21BCF92768B3E000670B9E /* Rubik-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3C10AE8A90940219D1B9052 /* Rubik-ExtraBold.ttf */; };
+		CB21BCFA2768B3E000670B9E /* Rubik-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B2167691C6D4752A7C21C95 /* Rubik-ExtraBoldItalic.ttf */; };
+		CB21BCFC2768B3E000670B9E /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DD9AE618F8E464C9C65FD44 /* Rubik-Italic.ttf */; };
+		CB21BCFD2768B3E000670B9E /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58193A6503FC4431A593F0DD /* Rubik-Light.ttf */; };
+		CB21BCFE2768B3E000670B9E /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35815F6F92794F24A65868EA /* Rubik-LightItalic.ttf */; };
+		CB21BCFF2768B3E000670B9E /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A873156A8E14968A4A70366 /* Rubik-Medium.ttf */; };
+		CB21BD002768B3E000670B9E /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 885C32AA427D499E86B8F7E4 /* Rubik-MediumItalic.ttf */; };
+		CB21BD012768B3E000670B9E /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF3D2E19DFC94FD2B4366AE6 /* Rubik-Regular.ttf */; };
+		CB21BD022768B3E000670B9E /* Rubik-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 424B8159252E42119DFB48B4 /* Rubik-SemiBold.ttf */; };
+		CB21BD032768B3E000670B9E /* Rubik-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 843CE5F471B942F8872D6112 /* Rubik-SemiBoldItalic.ttf */; };
+		CF419B70B167F64F3D8F72C0 /* libPods-eBites-eBitesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0CBDD97AA31B5EBD298608 /* libPods-eBites-eBitesTests.a */; };
+		DA2DE87DD5CA4005AEAA0950 /* Inter-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8AB884A25E54CF58ADD054B /* Inter-BoldItalic.ttf */; };
+		E60A96540AEC4B08BC79E487 /* Inter-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BA041E2401A407389559C98 /* Inter-ExtraBoldItalic.ttf */; };
+		EA8B721F4911A1A5E64E6CD2 /* libPods-eBites.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08074FAD75DBA101F08A353D /* libPods-eBites.a */; };
+		F9CA5F929C214C5F941A58F2 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DBE507A09914BB1891FAB4C /* Inter-Medium.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = eBites;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* eBitesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eBitesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* eBitesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eBitesTests.m; sourceTree = "<group>"; };
+		08074FAD75DBA101F08A353D /* libPods-eBites.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eBites.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		090FA3B1A197418F8082CA91 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraBold.ttf"; path = "../src/assets/fonts/Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* eBites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eBites.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = eBites/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = eBites/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = eBites/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = eBites/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = eBites/main.m; sourceTree = "<group>"; };
+		17B9C829A7DC51E2B57AF2A5 /* Pods-eBites-eBitesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eBites-eBitesTests.release.xcconfig"; path = "Target Support Files/Pods-eBites-eBitesTests/Pods-eBites-eBitesTests.release.xcconfig"; sourceTree = "<group>"; };
+		1A10D98E042E4B22A91BF528 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		1DD9AE618F8E464C9C65FD44 /* Rubik-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Italic.ttf"; path = "../src/assets/fonts/Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		1EB2A7D350294A30831D9D10 /* Rubik-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Black.ttf"; path = "../src/assets/fonts/Rubik-Black.ttf"; sourceTree = "<group>"; };
+		275B8641F4DC418D9119F6C3 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		2B998C8D6F194F5BB1657238 /* Rubik-VariableFont_wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-VariableFont_wght.ttf"; path = "../src/assets/fonts/Rubik-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		2E3E0D54A44045BCB27915E4 /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-BlackItalic.ttf"; path = "../src/assets/fonts/Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		300E3DBFD55D43CDB5E0F811 /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-BoldItalic.ttf"; path = "../src/assets/fonts/Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		345952794C3B46428FBA6426 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		35815F6F92794F24A65868EA /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-LightItalic.ttf"; path = "../src/assets/fonts/Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		3720AB4B83748CA8045179DB /* Pods-eBites-eBitesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eBites-eBitesTests.debug.xcconfig"; path = "Target Support Files/Pods-eBites-eBitesTests/Pods-eBites-eBitesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C0CBDD97AA31B5EBD298608 /* libPods-eBites-eBitesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-eBites-eBitesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C6811165904A1C9028FAFD /* Inter-ExtraLight-BETA.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraLight-BETA.ttf"; path = "../src/assets/fonts/Inter-ExtraLight-BETA.ttf"; sourceTree = "<group>"; };
+		424B8159252E42119DFB48B4 /* Rubik-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-SemiBold.ttf"; path = "../src/assets/fonts/Rubik-SemiBold.ttf"; sourceTree = "<group>"; };
+		459DE9CB572D4C569D1692E0 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		4696F641A9D04F64B1D4DA79 /* Inter-LightItalic-BETA.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-LightItalic-BETA.ttf"; path = "../src/assets/fonts/Inter-LightItalic-BETA.ttf"; sourceTree = "<group>"; };
+		4BA041E2401A407389559C98 /* Inter-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Inter-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		4DBE507A09914BB1891FAB4C /* Inter-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.ttf"; path = "../src/assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
+		58193A6503FC4431A593F0DD /* Rubik-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Light.ttf"; path = "../src/assets/fonts/Rubik-Light.ttf"; sourceTree = "<group>"; };
+		5EC73BD263C7461FA2D1D085 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		5FB1EC1E26354A91A81749E3 /* Inter-Light-BETA.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Light-BETA.ttf"; path = "../src/assets/fonts/Inter-Light-BETA.ttf"; sourceTree = "<group>"; };
+		6297063903F3456C90D1F412 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		6591C1DF4BF44968BEE4DFE9 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		6BC6074DD2D64C5384AC2C0E /* Inter-Thin-BETA.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Thin-BETA.ttf"; path = "../src/assets/fonts/Inter-Thin-BETA.ttf"; sourceTree = "<group>"; };
+		77DEA711C9194054918403F7 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Bold.ttf"; path = "../src/assets/fonts/Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		7BA94B16600E41068A06E694 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = eBites/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		843CE5F471B942F8872D6112 /* Rubik-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Rubik-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		885C32AA427D499E86B8F7E4 /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-MediumItalic.ttf"; path = "../src/assets/fonts/Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		926D70CD8E5B4206AB526BBB /* BalooBhaijaan-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BalooBhaijaan-Regular.ttf"; path = "../src/assets/fonts/BalooBhaijaan-Regular.ttf"; sourceTree = "<group>"; };
+		95B6BA353BE34F1783A54F4F /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		9A873156A8E14968A4A70366 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Medium.ttf"; path = "../src/assets/fonts/Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		9B2167691C6D4752A7C21C95 /* Rubik-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Rubik-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		9D2492B323CB477380E3524C /* Rubik-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Italic-VariableFont_wght.ttf"; path = "../src/assets/fonts/Rubik-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		A189836DA06147E4ADB9855C /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		A1CA7AB4151E479EBE8F3569 /* Inter-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Regular.ttf"; path = "../src/assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
+		A20AD88877EF4C5E8F835653 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBold.ttf"; path = "../src/assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		ABBEF54FDD0D4B05A37D1DD4 /* Inter-ExtraLightItalic-BETA.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraLightItalic-BETA.ttf"; path = "../src/assets/fonts/Inter-ExtraLightItalic-BETA.ttf"; sourceTree = "<group>"; };
+		AFDB4D19D93C43758F0861FD /* Inter-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Italic.ttf"; path = "../src/assets/fonts/Inter-Italic.ttf"; sourceTree = "<group>"; };
+		B705ABF8B2054EB4B4238AF6 /* Inter-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-MediumItalic.ttf"; path = "../src/assets/fonts/Inter-MediumItalic.ttf"; sourceTree = "<group>"; };
+		B73C0C0BAEC14DC094133750 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		B8AB884A25E54CF58ADD054B /* Inter-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-BoldItalic.ttf"; path = "../src/assets/fonts/Inter-BoldItalic.ttf"; sourceTree = "<group>"; };
+		BB184B4D052B4EE181AF1130 /* Inter-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Bold.ttf"; path = "../src/assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; };
+		BE82BDB8F3544F2583D7AFCA /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		CAB1D83972164579BDA1C21C /* Inter-ThinItalic-BETA.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ThinItalic-BETA.ttf"; path = "../src/assets/fonts/Inter-ThinItalic-BETA.ttf"; sourceTree = "<group>"; };
+		D7C6C737367F4EDD982C213A /* Inter-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Inter-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		DB07A40FD9C24646BBBABEC9 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		E29AB0E22364CC186849535B /* Pods-eBites.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eBites.release.xcconfig"; path = "Target Support Files/Pods-eBites/Pods-eBites.release.xcconfig"; sourceTree = "<group>"; };
+		E72F356EE40BA5A83BFF5055 /* Pods-eBites.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eBites.debug.xcconfig"; path = "Target Support Files/Pods-eBites/Pods-eBites.debug.xcconfig"; sourceTree = "<group>"; };
+		E99D263066FF4060B5A8F534 /* Inter-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Black.ttf"; path = "../src/assets/fonts/Inter-Black.ttf"; sourceTree = "<group>"; };
+		EA17202603284E48B9B3AB74 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		ED0115E3D160430DA7769901 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F3C10AE8A90940219D1B9052 /* Rubik-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-ExtraBold.ttf"; path = "../src/assets/fonts/Rubik-ExtraBold.ttf"; sourceTree = "<group>"; };
+		F75364FDBC834474A0C6968F /* Inter-UI-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-UI-BlackItalic.ttf"; path = "../src/assets/fonts/Inter-UI-BlackItalic.ttf"; sourceTree = "<group>"; };
+		FB3E978B5DC1462C816D628A /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		FF3D2E19DFC94FD2B4366AE6 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Rubik-Regular.ttf"; path = "../src/assets/fonts/Rubik-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF419B70B167F64F3D8F72C0 /* libPods-eBites-eBitesTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8B721F4911A1A5E64E6CD2 /* libPods-eBites.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* eBitesTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* eBitesTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = eBitesTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* eBites */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = eBites;
+			sourceTree = "<group>";
+		};
+		2D038CEF1D6B3A6ED744E4CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E72F356EE40BA5A83BFF5055 /* Pods-eBites.debug.xcconfig */,
+				E29AB0E22364CC186849535B /* Pods-eBites.release.xcconfig */,
+				3720AB4B83748CA8045179DB /* Pods-eBites-eBitesTests.debug.xcconfig */,
+				17B9C829A7DC51E2B57AF2A5 /* Pods-eBites-eBitesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				08074FAD75DBA101F08A353D /* libPods-eBites.a */,
+				3C0CBDD97AA31B5EBD298608 /* libPods-eBites-eBitesTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* eBites */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* eBitesTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				2D038CEF1D6B3A6ED744E4CA /* Pods */,
+				985192B80A0F4F46A10D1086 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* eBites.app */,
+				00E356EE1AD99517003FC87E /* eBitesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		985192B80A0F4F46A10D1086 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1EB2A7D350294A30831D9D10 /* Rubik-Black.ttf */,
+				2E3E0D54A44045BCB27915E4 /* Rubik-BlackItalic.ttf */,
+				77DEA711C9194054918403F7 /* Rubik-Bold.ttf */,
+				300E3DBFD55D43CDB5E0F811 /* Rubik-BoldItalic.ttf */,
+				F3C10AE8A90940219D1B9052 /* Rubik-ExtraBold.ttf */,
+				9B2167691C6D4752A7C21C95 /* Rubik-ExtraBoldItalic.ttf */,
+				9D2492B323CB477380E3524C /* Rubik-Italic-VariableFont_wght.ttf */,
+				1DD9AE618F8E464C9C65FD44 /* Rubik-Italic.ttf */,
+				58193A6503FC4431A593F0DD /* Rubik-Light.ttf */,
+				35815F6F92794F24A65868EA /* Rubik-LightItalic.ttf */,
+				9A873156A8E14968A4A70366 /* Rubik-Medium.ttf */,
+				885C32AA427D499E86B8F7E4 /* Rubik-MediumItalic.ttf */,
+				FF3D2E19DFC94FD2B4366AE6 /* Rubik-Regular.ttf */,
+				424B8159252E42119DFB48B4 /* Rubik-SemiBold.ttf */,
+				843CE5F471B942F8872D6112 /* Rubik-SemiBoldItalic.ttf */,
+				2B998C8D6F194F5BB1657238 /* Rubik-VariableFont_wght.ttf */,
+				345952794C3B46428FBA6426 /* AntDesign.ttf */,
+				A189836DA06147E4ADB9855C /* Entypo.ttf */,
+				5EC73BD263C7461FA2D1D085 /* EvilIcons.ttf */,
+				275B8641F4DC418D9119F6C3 /* Feather.ttf */,
+				BE82BDB8F3544F2583D7AFCA /* FontAwesome.ttf */,
+				7BA94B16600E41068A06E694 /* FontAwesome5_Brands.ttf */,
+				95B6BA353BE34F1783A54F4F /* FontAwesome5_Regular.ttf */,
+				DB07A40FD9C24646BBBABEC9 /* FontAwesome5_Solid.ttf */,
+				459DE9CB572D4C569D1692E0 /* Fontisto.ttf */,
+				B73C0C0BAEC14DC094133750 /* Foundation.ttf */,
+				6591C1DF4BF44968BEE4DFE9 /* Ionicons.ttf */,
+				EA17202603284E48B9B3AB74 /* MaterialCommunityIcons.ttf */,
+				1A10D98E042E4B22A91BF528 /* MaterialIcons.ttf */,
+				FB3E978B5DC1462C816D628A /* Octicons.ttf */,
+				6297063903F3456C90D1F412 /* SimpleLineIcons.ttf */,
+				ED0115E3D160430DA7769901 /* Zocial.ttf */,
+				926D70CD8E5B4206AB526BBB /* BalooBhaijaan-Regular.ttf */,
+				E99D263066FF4060B5A8F534 /* Inter-Black.ttf */,
+				BB184B4D052B4EE181AF1130 /* Inter-Bold.ttf */,
+				B8AB884A25E54CF58ADD054B /* Inter-BoldItalic.ttf */,
+				090FA3B1A197418F8082CA91 /* Inter-ExtraBold.ttf */,
+				4BA041E2401A407389559C98 /* Inter-ExtraBoldItalic.ttf */,
+				41C6811165904A1C9028FAFD /* Inter-ExtraLight-BETA.ttf */,
+				ABBEF54FDD0D4B05A37D1DD4 /* Inter-ExtraLightItalic-BETA.ttf */,
+				AFDB4D19D93C43758F0861FD /* Inter-Italic.ttf */,
+				5FB1EC1E26354A91A81749E3 /* Inter-Light-BETA.ttf */,
+				4696F641A9D04F64B1D4DA79 /* Inter-LightItalic-BETA.ttf */,
+				4DBE507A09914BB1891FAB4C /* Inter-Medium.ttf */,
+				B705ABF8B2054EB4B4238AF6 /* Inter-MediumItalic.ttf */,
+				A1CA7AB4151E479EBE8F3569 /* Inter-Regular.ttf */,
+				A20AD88877EF4C5E8F835653 /* Inter-SemiBold.ttf */,
+				D7C6C737367F4EDD982C213A /* Inter-SemiBoldItalic.ttf */,
+				6BC6074DD2D64C5384AC2C0E /* Inter-Thin-BETA.ttf */,
+				CAB1D83972164579BDA1C21C /* Inter-ThinItalic-BETA.ttf */,
+				F75364FDBC834474A0C6968F /* Inter-UI-BlackItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* eBitesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "eBitesTests" */;
+			buildPhases = (
+				906A1946D5FEF7CC4F9132B8 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				D702AEFA5945D4FA0107A48E /* [CP] Embed Pods Frameworks */,
+				29760A88196375CC7CD251E8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = eBitesTests;
+			productName = eBitesTests;
+			productReference = 00E356EE1AD99517003FC87E /* eBitesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* eBites */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "eBites" */;
+			buildPhases = (
+				82BA58D5469BB50FEEF5D666 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				BED2C85AE39D453AEBC615AE /* [CP] Embed Pods Frameworks */,
+				B9A9DA478ACD990739F500E9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eBites;
+			productName = eBites;
+			productReference = 13B07F961A680F5B00A75B9A /* eBites.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "eBites" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* eBites */,
+				00E356ED1AD99517003FC87E /* eBitesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB21BCF52768B3E000670B9E /* Rubik-Black.ttf in Resources */,
+				CB21BCF62768B3E000670B9E /* Rubik-BlackItalic.ttf in Resources */,
+				CB21BCF72768B3E000670B9E /* Rubik-Bold.ttf in Resources */,
+				CB21BCF82768B3E000670B9E /* Rubik-BoldItalic.ttf in Resources */,
+				CB21BCF92768B3E000670B9E /* Rubik-ExtraBold.ttf in Resources */,
+				CB21BCFA2768B3E000670B9E /* Rubik-ExtraBoldItalic.ttf in Resources */,
+				CB21BCFC2768B3E000670B9E /* Rubik-Italic.ttf in Resources */,
+				CB21BCFD2768B3E000670B9E /* Rubik-Light.ttf in Resources */,
+				CB21BCFE2768B3E000670B9E /* Rubik-LightItalic.ttf in Resources */,
+				CB21BCFF2768B3E000670B9E /* Rubik-Medium.ttf in Resources */,
+				CB21BD002768B3E000670B9E /* Rubik-MediumItalic.ttf in Resources */,
+				CB21BD012768B3E000670B9E /* Rubik-Regular.ttf in Resources */,
+				CB21BD022768B3E000670B9E /* Rubik-SemiBold.ttf in Resources */,
+				CB21BD032768B3E000670B9E /* Rubik-SemiBoldItalic.ttf in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				457CE5AB26CD42AFAF8D84DD /* BalooBhaijaan-Regular.ttf in Resources */,
+				43E8FF10B83D4C69B0344C98 /* Inter-Black.ttf in Resources */,
+				09B1164CCCA944E3B9EFD9C5 /* Inter-Bold.ttf in Resources */,
+				DA2DE87DD5CA4005AEAA0950 /* Inter-BoldItalic.ttf in Resources */,
+				6DF8DF5C93C644FAB697BD34 /* Inter-ExtraBold.ttf in Resources */,
+				E60A96540AEC4B08BC79E487 /* Inter-ExtraBoldItalic.ttf in Resources */,
+				AB7266594E6E4077B799D84F /* Inter-ExtraLight-BETA.ttf in Resources */,
+				65B38BD3436E4E16A36F13F5 /* Inter-ExtraLightItalic-BETA.ttf in Resources */,
+				690FD61945FC480DBC6B39E1 /* Inter-Italic.ttf in Resources */,
+				7609CE1ACAFA49E2B22B4FA5 /* Inter-Light-BETA.ttf in Resources */,
+				55FA7894A110419594F3B984 /* Inter-LightItalic-BETA.ttf in Resources */,
+				F9CA5F929C214C5F941A58F2 /* Inter-Medium.ttf in Resources */,
+				8A66443F2D74433D8F4B62B4 /* Inter-MediumItalic.ttf in Resources */,
+				570B9BC3D7E145BB8334B451 /* Inter-Regular.ttf in Resources */,
+				747E41F1BB7A4A46A1B24D67 /* Inter-SemiBold.ttf in Resources */,
+				6B780D3C4E534B2BB5A7A7D1 /* Inter-SemiBoldItalic.ttf in Resources */,
+				031130EC7687451DBCDCCD43 /* Inter-Thin-BETA.ttf in Resources */,
+				75DBB060788B4C138F3779AE /* Inter-ThinItalic-BETA.ttf in Resources */,
+				489365B67537462281F14975 /* Inter-UI-BlackItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		29760A88196375CC7CD251E8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eBites-eBitesTests/Pods-eBites-eBitesTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eBites-eBitesTests/Pods-eBites-eBitesTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-eBites-eBitesTests/Pods-eBites-eBitesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82BA58D5469BB50FEEF5D666 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-eBites-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		906A1946D5FEF7CC4F9132B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-eBites-eBitesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9A9DA478ACD990739F500E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eBites/Pods-eBites-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eBites/Pods-eBites-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-eBites/Pods-eBites-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BED2C85AE39D453AEBC615AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eBites/Pods-eBites-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eBites/Pods-eBites-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-eBites/Pods-eBites-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D702AEFA5945D4FA0107A48E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eBites-eBitesTests/Pods-eBites-eBitesTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eBites-eBitesTests/Pods-eBites-eBitesTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-eBites-eBitesTests/Pods-eBites-eBitesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* eBitesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* eBites */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3720AB4B83748CA8045179DB /* Pods-eBites-eBitesTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = eBitesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eBites.app/eBites";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17B9C829A7DC51E2B57AF2A5 /* Pods-eBites-eBitesTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = eBitesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eBites.app/eBites";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E72F356EE40BA5A83BFF5055 /* Pods-eBites.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = eBites/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = eBites;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E29AB0E22364CC186849535B /* Pods-eBites.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = eBites/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = eBites;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "eBitesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "eBites" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "eBites" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

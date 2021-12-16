@@ -1,0 +1,6 @@
+module Pods_eBites_eBitesTests {
+  umbrella header "Pods-eBites-eBitesTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
